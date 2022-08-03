@@ -12,12 +12,12 @@
     </header>
     <main>
         <section>
-            <h1>Header</h1>
-            <p>Description of activities</p>
+            <h1>The Wikipedia Game</h1>
+            <p>Description of how to play The Wikipedia Game</p>
         </section>
         <section>
         <img src="https://placebear.com/640/360" alt=""/>
-            <h2>Header 2</h2>
+            <h2>GUI of Page</h2>
             <ul>
                 <li>facts</li>
                 <li>facts</li>
@@ -26,7 +26,7 @@
         </section>
         <section>
         <img src="https://placebear.com/640/360" alt=""/>
-            <h2>Header 2</h2>
+            <h2>Day Leaders</h2>
             <ul>
                 <li>facts</li>
                 <li>facts</li>
@@ -35,7 +35,7 @@
         </section>
         <section>
         <img src="https://placebear.com/640/360" alt=""/>
-            <h2>Header 2</h2>
+            <h2>Week Leaders</h2>
             <ul>
                 <li>facts</li>
                 <li>facts</li>
