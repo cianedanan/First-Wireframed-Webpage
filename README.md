@@ -1,0 +1,1 @@
+<img alt="Wikigame Logo" src="./Images/WikiLogo.png" class="logo">
