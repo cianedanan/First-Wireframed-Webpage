@@ -1,63 +1,102 @@
+@font-face {
+  font-family: 'linLub';
+  src: url('Font/LinLibertineC_Re-4.0_.1_.woff');
+}
  body{
     background-color;
     margin: 0; 
     padding: 0;
-    font-family: 'sans-serif';
+    font-family: 'Helvetica';
     float: center;
+}
+
+#head{
+  text-align: center;
+  font-family: 'linLub';
+  font-size: 500%;
+}
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.topbar{
+background-color: aquamarine;
 }
 
 ul{
   list-style-type: none;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   overflow: hidden; 
-  float: center;
+  float: left;
+  margin-top: 100;
+}
+.static{
+  position:fixed;
 }
 li {
     float: left;
   }
-  
+
 li a {
     display: table;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
-    color: rgba(0, 68, 255, 0.959);
+    color: rgb(51, 102, 204);
     font-family: 'Arial';
-    
+    font-size: large;  
+    font-weight: bold;
     
 }
+a:hover {
+  background-color: rgba(211, 211, 211, 0.253);
+  text-decoration: underline;
+
+}
+
+
 p{
     font-family: Arial;
     font-size: 16px;
 }
-li.logo {
-    width: 100;
-    height: auto;
-  }
-  .pic {
+
+
+
+.pic {
 width: 500px;
 height: 500px;
 margin: auto;
 padding: 10px;
 }
-  .column {
+
+.column {
 float: left;
 width: 30.33%;
 padding: 10px;
 }
+
 .row::after {
 content: "";
 clear: both;
 display: table;
 }
-#foot{
-text-align: center;
-}
-.head{
-    text-align: center;
-}
-.block{
+
+
+
+section{
     padding: 10px;
     margin: auto;
     text-align: center;
+    border-bottom: blanchedalmond;
+    border-radius: 30px;
 }
+
+p{
+  color: grey;
+  font-size: large;
+}
+
+#foot{
+  text-align: center;
+  }
