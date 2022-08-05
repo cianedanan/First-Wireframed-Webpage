@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <center>
       <title>How to Play The Wiki Game</title>
-      <link rel="stylesheet" href="style.css" >
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
   </head>
+  
   <body>
-    <header class = "static" class ="topbar">
-      <nav id="links">
-        <ul>
-          <center>
-          <li><img alt="Wikigame Logo" src="./Images/WikiLogo.png" class="logo"></li>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Link 2</a></li>
-          <li><a href="/">Link 3</a></li>
-          <li><a href="/">Chris</a></li>
-          <li><a href="https://mehtab228.github.io/Adventures-In-Seattle/">Mehtab</a></li>
-        </ul>
+    <header >
+      <nav class = "navbar">
+        <img alt="Wikigame Logo" src="./Images/WikiLogo.png" id="logo">
+        <a href="https://cianedanan.github.io/First-Wireframed-Webpage/">Home</a>
+        <a href="https://www.thewikigame.com/" target="_blank">Play</a>
+        <a href="">Cheats</a></li>
+        <a href="https://hollistr.github.io/Sugarshack-Sessions" target="_blank">Chris</a>
+        <a href="https://mehtab228.github.io/Adventures-In-Seattle/" target="_blank">Mehtab</a>
       </nav>
     </header>
-    <script src="myscripts.js"></script>
+
     <main>
+
       <section>
         <h1 id="head">THE WIKIPEDIA GAME</h1>
         <p id="head">A free instruction guide</p>
-        <p class="textblock">
-          The objective of this game is to get from the starting page the to the goal page. Hit the PLAY NOW button to start. From there you must keep click on the hyperlinks you think will get you closer to your goal page.
-        </p>
       </section>
-      <script src="script.js"></script>
+
+      <section class ="border">
+        <h2 class="smallhead">How to Play</h2>
+        <p class="smallhead blocktext">
+          The objective of this game is to get from the starting page to the goal page. Hit the blue play now button and your start page will open. From there you must click on the <a class= "link" href="https://en.wikipedia.org/wiki/Hyperlink" target="_blank">hyperlinks</a> you think will get you closer to your goal page. The lower amount of clicks and time the more points you earn.
+        </p>
+        <img src="Images/how-to-pic.png"/ class="picTop" alt="How To IMG">
+      </section>
+      
+      <section class ="border">
       <div class="row">
         <div class="column">
-          <section>
-            <h2 class="head"> How to Play</h2>
-            <img src="./Images/Play.png" class="pic" alt="Wiki 1" />
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-          <section/>
+            <h2 class="smallhead"> Daily Leaderboard</h2>
+            <img src="Images/DailyLeaderboard.png" class="pic" alt="Wiki 2" />
+            <p class= "blocktext">This leaderboard shows who has the most points today.</p>
         </div>
-          <div class="column">
-            <section>
-              <h2 class="head"> How to Play</h2>
-              <img src="./Images/Play.png" class="pic" alt="Wiki 1" />
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            <section/>
-          </div>
+        <div class="column">
+            <h2 class="smallhead"> Latest Winner</h2>
+            <img src="Images/Winner.png" class="pic" alt="Wiki 1" />
+            <p class= "blocktext">You can see who did the last challenge the quickest. On display is how many times they've reached the endpage, which hyperlinks they clicked get there, how many points they earned for each win, how many clicks it took, and the time it took.</p>
+        </div>
          <div class="column">
-          <section>
-            <h2 class="head"> How to Play</h2>
-            <img src="./Images/Play.png" class="pic" alt="Wiki 1" />
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-            <section/>
+            <h2 class="smallhead"> Weekly Leaderboard</h2>
+            <img src="Images/WeeklyLeaderboard.png" class="pic" alt="Wiki 3" />
+            <p class= "blocktext">This leaderboard shows who has the most points this week.</p>
           </div>
         </div>
-      </main>
+      </section>
 
+      </main>
     </center>
       <footer>
         <p id="foot">&copy; 2022 Cianenry Danan</p>

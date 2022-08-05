@@ -2,70 +2,83 @@
   font-family: 'linLub';
   src: url('Font/LinLibertineC_Re-4.0_.1_.woff');
 }
+@font-face{
+  font-family: 'linLub2';
+  src: url(Font/LinLibertine_Bd-4.0_.2_.woff);
+}
+
  body{
-    background-color;
+    background-color: rgb(246,246,246);
     margin: 0; 
     padding: 0;
     font-family: 'Helvetica';
     float: center;
 }
 
+#logo {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+  float: left;
+}
+
+.navbar{
+  width: 550px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background-color: rgba(246, 246, 246, 0.555);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a{
+  float: left;
+  display:block;
+  color: rgb(51, 102, 204);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 150%;
+}
+  
+a:hover {
+  background-color: rgba(211, 211, 211, 0.253);
+  text-decoration: underline;
+}
+
 #head{
+  float: center;
   text-align: center;
   font-family: 'linLub';
   font-size: 500%;
 }
-.logo {
-  width: 50px;
-  height: auto;
+.smallhead{
+  font-size: 300%;
+  font-family:linLub2;
 }
 
-.topbar{
-background-color: aquamarine;
+.link{
+  text-decoration: none;
+  color: rgb(51, 102, 204)
 }
 
-ul{
-  list-style-type: none;
-  margin: auto;
-  padding: 10px;
-  overflow: hidden; 
-  float: left;
-  margin-top: 100;
-}
-.static{
-  position:fixed;
-}
-li {
-    float: left;
-  }
-
-li a {
-    display: table;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(51, 102, 204);
-    font-family: 'Arial';
-    font-size: large;  
-    font-weight: bold;
-    
-}
-a:hover {
-  background-color: rgba(211, 211, 211, 0.253);
+.link:hover{
+  background-color: none;
   text-decoration: underline;
-
+  
 }
 
+.picTop{
+width: 50%;
+height: auto;
+min-width: 1280px
 
-p{
-    font-family: Arial;
-    font-size: 16px;
 }
-
-
-
 .pic {
-width: 500px;
-height: 500px;
+width: auto;
+height: auto;
 margin: auto;
 padding: 10px;
 }
@@ -82,19 +95,23 @@ clear: both;
 display: table;
 }
 
-
-
 section{
-    padding: 10px;
-    margin: auto;
+    padding: 50px;
+    margin: 30px;
     text-align: center;
-    border-bottom: blanchedalmond;
-    border-radius: 30px;
 }
 
-p{
-  color: grey;
-  font-size: large;
+.border{
+border-style: solid;
+border-color: rgb(167,214,249);
+background-color: rgb(255, 255, 255);
+
+}
+
+.blocktext{
+  font-size: 200%;
+  font-family: Arial;
+
 }
 
 #foot{
