@@ -6,6 +6,10 @@
   font-family: 'linLub2';
   src: url(Font/LinLibertine_Bd-4.0_.2_.woff);
 }
+@font-face{
+  font-family: 'menlo';
+  src: url(Font/Menlo-Regular.woff);
+}
 
  body{
     background-color: rgb(246,246,246);
@@ -44,7 +48,8 @@
 }
   
 a:hover {
-  background-color: rgba(211, 211, 211, 0.253);
+  background-color: rgba(201, 205, 210, 0.63);
+  
   text-decoration: underline;
 }
 
@@ -56,7 +61,7 @@ a:hover {
 }
 .smallhead{
   font-size: 300%;
-  font-family:linLub2;
+  font-family:'linLub2';
 }
 
 .link{
@@ -70,15 +75,22 @@ a:hover {
   
 }
 
+main {
+  width: 1500px;
+  margin: 30px auto;
+  min-height: 700px;
+}
+
+
 .picTop{
 width: 50%;
 height: auto;
 min-width: 1280px
 
 }
+
 .pic {
-width: auto;
-height: auto;
+width: 80%;
 margin: auto;
 padding: 10px;
 }
@@ -105,13 +117,17 @@ section{
 border-style: solid;
 border-color: rgb(167,214,249);
 background-color: rgb(255, 255, 255);
-
 }
 
 .blocktext{
   font-size: 200%;
   font-family: Arial;
 
+}
+
+#gud{
+font-size: 2000%;
+font-family: 'menlo'; 
 }
 
 #foot{
