@@ -8,9 +8,9 @@ function getName(){
 
 function askQuestion() {
   let answer;
-  while (answer != 'wiki game' || answer == null || answer == '' || answer == "") {
+  while (answer != 'Wiki Game' || answer == null || answer == '' || answer == "") {
       answer = prompt("What's the best browser site game?"); 
-      if (answer != 'wiki game' || answer == null || answer == '' || answer == "") {
+      if (answer != 'Wiki Game' || answer == null || answer == '' || answer == "") {
           alert('Wrong. It rhymes with Liki Game');
       } else {
           alert('Glad you thought so too!');
@@ -20,8 +20,8 @@ function askQuestion() {
 
 function printImg(){
   let output = '';
-  let trophy = prompt("How many wins do you have?(0-10)");
-  if(trophy > 10 || trophy < 0){
+  let trophy = prompt("How many wins do you have?(0-100)");
+  if(trophy > 100 || trophy < 0){
     alert("0-10 Please");
   } else{
     for(i = 0; i < trophy; i++){
