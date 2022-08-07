@@ -8,9 +8,9 @@ function getName(){
 
 function askQuestion() {
   let answer;
-  while (answer != 'Wiki Game' || answer == null || answer == '' || answer == "") {
-      answer = prompt("What's the best browser site game?"); 
-      if (answer != 'Wiki Game' || answer == null || answer == '' || answer == "") {
+  while (answer != 'wiki game' || answer == null || answer == '' || answer == "") {
+      answer = prompt("What's the best browser site game?").toLowerCase(); 
+      if (answer != 'wiki game' || answer == null || answer == '' || answer == "") {
           alert('Wrong. It rhymes with Liki Game');
       } else {
           alert('Glad you thought so too!');
@@ -22,16 +22,19 @@ function printImg(){
   let output = '';
   let trophy = prompt("How many wins do you have?(0-100)");
   if(trophy > 100 || trophy < 0){
-    alert("0-10 Please");
-  } else{
+    alert("0-100 Please");
+  } else if(trophy < 1){
+    alert("You and I both, buddy.")
+    output = "<img id='toilet' src='Images/loser.png'/>";
+    document.getElementById('trophyHere').innerHTML = output;
+  } else{ 
     for(i = 0; i < trophy; i++){
-      output += "<img class='star' src='Images/Trophy.png'/>"; 
+      output += "<img class='trophy' src='Images/Trophy.png'/>"; 
     }
     document.getElementById('trophyHere').innerHTML = output;
   }
-  
-
 }
+
 function giveRank() {
   let rank = '';
   let points = document.getElementById('userPoints').value;
@@ -56,7 +59,5 @@ function giveRank() {
       message = '';
     }
   document.getElementById('printHere').innerHTML = message;
-  console.log(rank);
-  
   }
 
